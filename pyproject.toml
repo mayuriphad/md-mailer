@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "md-mailer"
+version = "0.1.0"
+description = "A simple library to convert Markdown files into beautifully styled, inline-CSS HTML emails and send them."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "mayuri" }
+]
+dependencies = [
+    "markdown>=3.4.0",
+    "premailer>=3.10.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/mayuriphad/md-mailer"
